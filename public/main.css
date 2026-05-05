@@ -46,21 +46,22 @@ main {
     text-align: center;
 }
 
-/* Стилі для зображення профілю */
 .profile-image {
-    width: 250px;
-    height: 250px;
-    margin: 0 auto 30px;
-    border-radius: 50%;
-    overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 280px;            /* Розмір всього кола (налаштуйте під себе) */
+    height: 280px;
+    border-radius: 50%;      /* Робимо контейнер круглим */
+    overflow: hidden;        /* Обрізаємо все, що виходить за межі кола */
+    margin: 0 auto;          /* Центрування */
+    border: 8px solid white; /* Біла рамка, як на вашому макеті */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* М'яка тінь */
 }
 
-.profile-image svg {
-    width: 100%;
-    height: 100%;
+.profile-image img {
+    width: 100%;             /* Фото займає 100% ширини контейнера */
+    height: 100%;            /* Фото займає 100% висоти контейнера */
+    object-fit: cover;       /* КЛЮЧОВЕ: фото масштабується так, щоб заповнити коло без розтягування */
+    object-position: center; /* Центруємо обличчя */
 }
-
 /* Стилі для секції "Про мене" */
 .about-me {
     max-width: 600px;
