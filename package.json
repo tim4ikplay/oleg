@@ -1,0 +1,23 @@
+{
+  "name": "oleg",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/tim4ikplay/oleg#readme",
+  "bugs": {
+    "url": "https://github.com/tim4ikplay/oleg/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tim4ikplay/oleg.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.1"
+  }
+}
